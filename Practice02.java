@@ -1,0 +1,13 @@
+package practice94;
+
+public class Practice02 {
+	public static void main(String[] args) {
+		int cnt = 0;
+		do
+		{
+			System.out.println(cnt);
+			cnt++;
+		}
+		while(cnt < 10);
+	}
+}
