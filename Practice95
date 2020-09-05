@@ -1,0 +1,55 @@
+package practice95;
+
+public class Practice01 {
+
+	public static void main(String[] args) {
+
+		StringBuffer sb= new StringBuffer();
+		sb.append("hello");
+		sb.append("  ");
+		sb.append("jump to java");
+		System.out.println(sb.toString());
+		
+		
+	}
+
+}
+
+package practice95;
+
+public class Practice02 {
+
+	public static void main(String[] args) {
+		String temp = "";
+		temp += "hello";
+		temp += " ";
+		temp += "jump to java";
+		System.out.println(temp);
+
+	}
+
+}
+
+package practice95;
+
+public class Practice03 {
+	
+	public static void main(String[] args) {
+		String[] weeks = new String[7];
+		weeks[0]= "월";
+		weeks[1]= "화";
+		weeks[2]= "수";
+		weeks[3]= "목";
+		weeks[4]= "금";
+		weeks[5]= "토";
+		weeks[6]= "일";
+		System.out.println(weeks[5]);
+	}
+	
+	
+	
+	
+}
+
+
+
