@@ -1,12 +1,12 @@
-package practice94;
+package practice97;
 
 public class Practice03 {
 	public static void main(String[] args) {
-		int y = 0;
-		for(int i= 1; i<11; i++)
+		for(int i=0; i<=10; i++)
 		{
-			y = i+y;
+			if( i%3==0)
+				continue;
+			System.out.println(i);
 		}
-		System.out.println(y);
 	}
 }

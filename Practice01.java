@@ -1,13 +1,15 @@
-package practice94;
+package practice97;
 
 public class Practice01 {
 	public static void main(String[] args) {
-		int cnt = 0;
-		while(cnt < 10)
-		{
-			System.out.println(cnt);
-			cnt++;
-		}
-		System.out.println("Done");
-	}
-}
+//		int input = 0;
+		
+//		System.out.println("문장을 입력하세요");
+	//	System.out.println("입력을 마치려면 x를 입력하세요");
+		//do {
+			//input = System.in.read();
+			//System.out.println((char)input);
+//		}while(input!=-1 && input !='x');
+//		
+//	}
+//}

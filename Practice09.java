@@ -1,15 +1,10 @@
-package practice94;
+package practice97;
 
 public class Practice09 {
 	public static void main(String[] args) {
-		int sum=0;
-		for(int x=2; x<10; x++)
-		{
-			for(int y=1; y<10; y++)
-			{
-				sum = x*y;
-				System.out.print(x+ "*"+y+"="+sum+"\t");
-				
+		for(int i=0; i<4; i++) {
+			for(int i2 = 0; i2<5; i2++) {
+				System.out.println("*");
 			}
 			System.out.println();
 		}

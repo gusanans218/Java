@@ -1,13 +1,17 @@
-package practice94;
+package practice97;
 
 public class Practice02 {
 	public static void main(String[] args) {
-		int cnt = 0;
-		do
-		{
-			System.out.println(cnt);
-			cnt++;
+		int sum = 0;
+		int i = 0;
+		while(true) {
+			if(sum>100)
+				break;
+			i++;
+			sum += i;
+			
 		}
-		while(cnt < 10);
+		System.out.println("i="+i);
+		System.out.println("sum=" + sum);
 	}
 }
