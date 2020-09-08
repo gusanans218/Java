@@ -1,12 +1,19 @@
-package practice97;
+package practice98;
 
 public class Practice03 {
 	public static void main(String[] args) {
-		for(int i=0; i<=10; i++)
+		System.out.println("while문\n");
+		int x = 6;
+		while(x<5)
 		{
-			if( i%3==0)
-				continue;
-			System.out.println(i);
+			System.out.println("x의 값: "+x); 
+			x++;
 		}
+		System.out.println("do-while문");
+		do {
+			System.out.println("x의 값"+x);
+			x++;}
+			while(x<5);
+		
 	}
 }

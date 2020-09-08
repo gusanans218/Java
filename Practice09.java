@@ -1,12 +1,16 @@
-package practice97;
+package practice98;
 
 public class Practice09 {
 	public static void main(String[] args) {
-		for(int i=0; i<4; i++) {
-			for(int i2 = 0; i2<5; i2++) {
-				System.out.println("*");
+		for(int x =0; x<=10; x++)
+		{
+			for(int y= 0; y<=10; y++)
+			{
+				if(2*x+4*y==10)
+				{
+					System.out.println("x="+x+", y="+y);
+				}
 			}
-			System.out.println();
 		}
 	}
 }

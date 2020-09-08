@@ -1,19 +1,10 @@
-package practice97;
+package practice98;
 
 public class Practice08 {
- public static void main(String[] args) throws Exception {
-	System.out.println("5ÃÊµÚ ÅÍÁü");
-	System.out.println("5");
-	Thread.sleep(1000);
-	System.out.println("4");
-	Thread.sleep(1000);
-	System.out.println("3");
-	Thread.sleep(1000);
-	System.out.println("2");
-	Thread.sleep(1000);
-	System.out.println("1");
-	Thread.sleep(1000);
-	System.out.println("ÀÌ°Å º» »ç¶÷ ³ªÇÑÅ× ¿±¶± »çÁà¾ßµÊ");
-	
-}
+	public static void main(String[] args) {
+		for(int i = 1; i<=6; i++)
+			for(int j = 1; j<=6; j++)
+				if(i+j==6)
+					System.out.println(i+"+"+j+"="+(i+j));
+	}
 }

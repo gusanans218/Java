@@ -1,11 +1,13 @@
-package practice97;
+package practice98;
 
 public class Practice10 {
 	public static void main(String[] args) {
-		for(int i = 1; i<6; i++) {
-			for(int j=0; j<i; j++) {
-				System.out.println("*");
-			}
+		String str = "12345";
+		int sum =0;
+		for(int i =0; i<str.length(); i++)
+		{
+			sum +=str.charAt(i)-'0';
 		}
+		System.out.println("sum ="+sum);
 	}
 }

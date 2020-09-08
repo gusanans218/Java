@@ -1,15 +1,10 @@
-package practice97;
+package practice98;
 
 public class Practice01 {
 	public static void main(String[] args) {
-//		int input = 0;
-		
-//		System.out.println("문장을 입력하세요");
-	//	System.out.println("입력을 마치려면 x를 입력하세요");
-		//do {
-			//input = System.in.read();
-			//System.out.println((char)input);
-//		}while(input!=-1 && input !='x');
-//		
-//	}
-//}
+		String x ="안녕하세요";
+		String y =" ";
+		y+=x.charAt(2);
+		System.out.println(y);
+	}
+}
