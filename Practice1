@@ -1,0 +1,172 @@
+package practice01;
+
+public class Practice01 {
+	public static void main(String[] args) {
+		for(int i=1; i<=9; i++)
+		{
+			for(int j=1; j<=9; j++)
+			{
+				System.out.println(i + " * " + j + " = " + i*j);
+			}
+			System.out.println();
+		}
+		
+	}
+
+}
+
+package practice01;
+
+public class Practice02 {
+	 public static void main(String[] args) {
+		byte a=10;
+		short b=20;
+		int c=30;
+		long d= 40;
+		System.out.printf("a: %d, b: %d, c: %d, d: %d",a,b,c,d);
+	}
+}
+
+package practice01;
+
+public class Practice03 {
+	public static void main(String[] args) {
+		String str="Hello, Android Application!";
+		System.out.println(str);
+	}
+}
+
+package practice01;
+
+public class Practice04 {
+	public static void main(String[] args) {
+		char b= 'B';
+		System.out.println(b);
+		System.out.printf("%c",b);
+	}
+}
+package practice01;
+
+public class Practice05 {
+	public static void main(String[] args) {
+		char text='자';
+		System.out.println(text);
+		text='\uc790';
+		System.out.printf("%c", text);
+	}
+}
+package practice01;
+
+import java.util.Scanner;
+
+public class Practice06 {
+	public static void main(String[] args) {
+		 Scanner input = new Scanner(System.in);
+	        System.out.printf("몸무게 : ");
+	        short kg = input.nextShort();
+	        System.out.printf("키: ");
+	        float cm = input.nextFloat();
+	         
+	        System.out.println("몸무게 : "+kg+"kg, 키 : "+cm+"cm");
+	    }
+}
+package practice01;
+
+import java.util.Scanner;
+
+public class Practice07 {
+	public static void main(String[] args) {
+		Scanner input= new Scanner(System.in);
+		double a= input.nextDouble();
+		double b=input.nextDouble();
+		System.out.println("합 : "+(a+b)+", 평균:"+(a+b)/2);
+	}
+}
+package practice01;
+
+public class Practice08 {
+	public static void main(String[] args) {
+		System.out.println(1==2);
+		System.out.println(1==1);
+		System.out.println("one"=="two");
+		System.out.println("one"=="one");
+	}
+}
+package practice01;
+
+public class Practice09 {
+	public static void main(String[] args) {
+		System.out.println(1!=2);
+		System.out.println(1!=1);
+		System.out.println("one"!="two");
+		System.out.println("one"!="one");
+	}
+}
+package practice01;
+
+public class Practice10 {
+	public static void main(String[] args) {
+		String a= "Hello World";
+		String b= new String("Hello World");
+		System.out.println(a==b);
+		System.out.println(a.equals(b));
+	}
+}
+package practice01;
+
+public class Practice11 {
+	public static void main(String[] args) {
+		if(false)
+		{
+			System.out.println(1);
+			System.out.println(2);
+			System.out.println(3);
+			System.out.println(4);
+			System.out.println(5);
+			
+		}
+		System.out.println(6);
+	}
+}
+package practice01;
+
+public class Practice12 {
+	public static void main(String[] args) {
+		if(false) {
+			System.out.println(1);
+		}else {
+			System.out.println(2);
+		}
+	}
+}
+package practice01;
+
+public class Practice13 {
+	public static void main(String[] args) {
+		if(false) {
+			System.out.println(1);
+		}else if(false) {
+			System.out.println(2);
+		}else if(true) {
+			System.out.println(3);
+		}else {
+			System.out.println(4);
+		}
+	}
+}
+package practice01;
+
+public class Practice14 {
+	public static void main(String[] args) {
+		String id = args[0];
+		if(id.equals("egoing")) {
+			System.out.println("right");
+		}else {
+			System.out.println("wrong");
+		}
+	}
+}
+
+
+
+
