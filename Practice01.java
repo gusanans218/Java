@@ -1,10 +1,14 @@
-package practice98;
+//package practice0911;
+//
+//import java.util.Arrays;
 
-public class Practice01 {
-	public static void main(String[] args) {
-		String x ="æ»≥Á«œººø‰";
-		String y =" ";
-		y+=x.charAt(2);
-		System.out.println(y);
-	}
-}
+//public class Practice01 {
+//	public static void main(String[] args) {
+//		for(int i = 0; i < scores.length; i++) 
+//		{ scores[i] = i; 
+//		}
+//		System.out.println(Arrays.toString(scores), key))
+//
+//
+//	}
+//}

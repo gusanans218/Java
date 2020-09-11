@@ -1,16 +1,14 @@
-package practice98;
+package practice0911;
 
 public class Practice09 {
 	public static void main(String[] args) {
-		for(int x =0; x<=10; x++)
-		{
-			for(int y= 0; y<=10; y++)
-			{
-				if(2*x+4*y==10)
-				{
-					System.out.println("x="+x+", y="+y);
-				}
+		int[][]ggd = new int[8][9];
+		for(int i =0; i<8; i++) {
+			for(int j =0; j<9; j++) {
+				ggd[i][j] = (i+2)*(j+1);
+				System.out.print((i+2)+"*"+(j+1)+"="+ggd[i][j]+"\t");
 			}
+			System.out.println();
 		}
 	}
 }

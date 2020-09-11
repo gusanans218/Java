@@ -1,19 +1,14 @@
-package practice98;
+package practice0911;
+
+import java.util.Arrays;
 
 public class Practice03 {
+
 	public static void main(String[] args) {
-		System.out.println("while문\n");
-		int x = 6;
-		while(x<5)
-		{
-			System.out.println("x의 값: "+x); 
-			x++;
-		}
-		System.out.println("do-while문");
-		do {
-			System.out.println("x의 값"+x);
-			x++;}
-			while(x<5);
-		
+		// TODO Auto-generated method stub
+		int[][]scores = new int[2][3]; int k = 0; for(int i = 0; i < scores.length; i++) { for(int j = 0; j < scores[i].length; j++) { scores[i][j] = k++; } System.out.println(Arrays.toString(scores[i])); }
+
+	
 	}
+
 }

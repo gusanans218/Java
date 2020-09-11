@@ -1,27 +1,14 @@
-package practice98;
+package practice0911;
 
-public class Practice04 
-
-{
+public class Practice04 {
 	public static void main(String[] args) {
-		for(int i = 0; i<5; i++)
-		{
-			System.out.print(" * ");}
-			System.out.println();
-			
-			for(int j=1; j<6; j++)
-			{
-				System.out.print(j);
-			}
-			System.out.println();
-			
-			for(int a = 5; a>0; a++)
-			{
-				System.out.print(a);
-			}
-			System.out.println();
-			
+		int[]score = {93,75,95,76,70};
+		int sum = 0;
+		for(int i = 0; i<score.length; i++) {
+			sum += score[i];
 	}
-	
-	
+		double avg = (double) sum /score.length;
+		System.out.println("점수 합계 : "+sum);
+		System.out.println("점수 평균 : "+avg);
+	}
 }
