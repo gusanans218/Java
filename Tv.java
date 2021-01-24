@@ -1,39 +1,29 @@
-package sec02_interface;
+package coding0108;
 
-public class Tv implements controllable {
-	private int volume;
-
-	public void turnOn() {
-		System.out.println("Tv¸¦ ÄÕ´Ï´Ù");
-
-	}
-
-	public void turnOff() {
-		System.out.println("Tv¸¦ ²ü´Ï´Ù");
-
-	}
-
-	public void setVolume(int volume) {
-		if (volume > controllable.MAX_VOLUME)
-			this.volume = MAX_VOLUME;
-		else if (volume < MIN_VOLUME) {
-			this.volume = MIN_VOLUME;
-		} else {
-			this.volume = volume;
-		}
-		System.out.println("ÇöÀç º¼·ý:" + this.volume);
-	}
-
-	@Override
-	public void setVolume() {
-		if (volume > controllable.MAX_VOLUME)
-			this.volume = MAX_VOLUME;
-		else if (volume < MIN_VOLUME) {
-			this.volume = MIN_VOLUME;
-		} else {
-			this.volume = volume;
-		}
-		System.out.println("ÇöÀç º¼·ý:" + this.volume);
-	}
-
+ class Tv {
+	 boolean power;
+	 int channel;
+	 
+	 void power() {power = !power;}
+	 void channelUp() {++channel;}
+	 void channelDown() {--channel;}
 }
+ class CaptionTv extends Tv{
+	 boolean caption;
+	 void displayCaption(String text) {
+		 if(caption) {
+			 System.out.println(text);
+		 }
+	 }
+ }
+ class CaptionTvTest{
+	 public static void main(String[] args) {
+		CaptionTv ctv = new CaptionTv();
+		ctv.channel = 10;
+		ctv.channelUp();
+		System.out.println(ctv.channel);
+		ctv.displayCaption("hello, world");
+		ctv.caption = true;
+		ctv.displayCaption("hello, world");
+	}
+ }
